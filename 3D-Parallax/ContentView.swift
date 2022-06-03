@@ -26,8 +26,8 @@ struct ContentView: View {
             Image("ios")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .frame(width: 300,height: 250)
-                .offset(x: 40, y: -75)
+                .frame(height: 230)
+                .offset(x: 22, y: -80)
         )
     }
     
